@@ -29,7 +29,7 @@ html {
   color: var(--highlighting-color);
 }
 
-.score {
+.result {
   display: none;
   background-color: var(--secondary-bg-color);
   font-size: 1.8rem;
@@ -37,7 +37,7 @@ html {
   padding: 60px 0;
 }
 
-.score-highlight {
+.result-highlight {
   font-size: 3.5rem;
   color: var(--highlighting-color);
 }
@@ -59,6 +59,7 @@ html {
   display: block;
   position: relative;
   margin: 20px;
+  width: max-content;
   color: var(--quiz-answers-text);
   font-size: .8rem;
   padding-left: 30px;
@@ -90,7 +91,7 @@ html {
   left: 6px;
   width: 8px;
   height: 8px;
-  background-color: #fff;
+  background-color: #FFFFFF;
   border-radius: 50%;
 }
 
@@ -113,4 +114,8 @@ html {
   font-size: 1rem;
   color: var(--secondary-bg-color);
   cursor: pointer;
+}
+
+.quiz-submit_btn:hover {
+  background-color: #EEEEEE;
 }
