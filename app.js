@@ -16,10 +16,13 @@ form.addEventListener('submit', e => {
   });
 
   //show result on page
-  scrollTo(0, 0);
+  scroll({
+    top: 0,
+    behavior: 'smooth'
+  });
   result.classList.add('active');
 
-  let output = 0;
+  let output = -16;
   const timer = setInterval(() => {
     result.querySelector('.result-highlight').textContent = `${output}%`;
     if (output === score) {
