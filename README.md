@@ -1,2 +1,2 @@
 # interactive-quiz
-One of challenges from thenetninja course.
+First of the challenges from thenetninja course.
